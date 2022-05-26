@@ -1,0 +1,14 @@
+So for my Super Store Database, that manages all the products thats comes in and out of the store, it also handles all the customer/employee data and the total sales made that year,It has a 
+
+Store entity that has 		   StoreID, location, No. of Employee, total revenue, Year.
+Order entity that has 		   OrderID, CustomerID, ProductID, Order Date.
+Product entity that has 	   PruductID, Product Name, Price.
+Supplier entity that has 	   SupplierID, Supplier Name, StoreID, Supplier Location, Supplier Number.
+Supplied Prodcuts entity that has  ProductID, SupplierID, Price.
+Delivery entity that has 	   DeliveryID, CustomerID, Customer Location, Order Date, Ship Date.
+Customer enitty that has 	   CustomerID, Customer Name, Customer Location, Customer Number, Customer email
+Employee enitty that has 	   EmployeeID, StoreID, Employee Name, Employee Salary.
+
+The Store entity has all the details for the current store, like location and how much is the store making per year. The Order table handles all the orders made by the customer on a given date and all the products purchased during that order. The product table has the details for all the products available in the store. The Supplier table has the details for the all the supplier and what store they supply to. The Supplied Products table has details for all the products that has been supplied by the supplier and how much they cost. The delivery table takes all the order from the order table and handles all the delivery done...basically shows what deleivery has to be made to which customer on what day. Customer table handles all the customer deails and Employee table handles all the employee details.
+
+This may not be the final tables as when I am making the ERD diagram I might need to add more weak entities.
